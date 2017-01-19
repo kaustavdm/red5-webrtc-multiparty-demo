@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Red5 WebRTC multi-party conference demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Red5 WebRTC Multi-party conference demo</h1>
+        </header>
+        <div class="container">
+            <div id="subscribers">
+                <h2>Their video feed</h2>
+            </div>
+            <div id="publisher">
+                <h2>Your video feed</h2>
+                <video id="publisher-view"></video>
+            </div>
+        </div>
+        <!-- * Recommended WebRTC Shim -->
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <!-- Red5 Pro SDK -->
+        <script src="lib/red5pro/red5pro-sdk.min.js"></script>
+        <!-- Application script -->
+        <script src="js/config.js"></script>
+        <script src="js/multi-party.js"></script>
+    </body>
+</html>

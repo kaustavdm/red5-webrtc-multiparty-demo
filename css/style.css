@@ -1,0 +1,67 @@
+/* - Global styles/overrides ------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: #fafafa;
+    color: #151515;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+/* - Headings --------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 0;
+}
+
+h1 {
+    color: #5d5d5d;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* - Page Layout ------------------------------ */
+header, .container {
+    padding: 1rem;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#publisher {
+    width: 30%;
+}
+
+#subscribers {
+    flex-grow: 1;
+}
